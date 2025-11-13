@@ -2,13 +2,14 @@
 
 <!-- Título e Imagem de capa -->
 <p align="center">
-  <img src="assets/cover_image_data_science.png" alt="Imagem de capa com ícones de gráficos, código e machine learning" width="700"/>
+  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/887342ff-ba33-454b-adfe-5e26e1e0d16c" />
 </p>
 
 <!-- Badges -->
 <p align="center">
   <!-- Badge de Linguagem Principal -->
   <img src="https://img.shields.io/badge/Linguagem%20Principal-Python-blue?style=for-the-badge&logo=python" alt="Badge de Linguagem Principal: Python"/>
+  <img src="https://img.shields.io/badge/Fonte%20de%20Dados-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Fonte de Dados: Kaggle"/>
   <!-- Badge de Status do Projeto -->
   <img src="https://img.shields.io/badge/Status%20do%20Portfólio-Em%20Expansão-yellowgreen?style=for-the-badge" alt="Badge de Status do Projeto: Em Expansão"/>
   <!-- Badge de Contribuições -->
