@@ -1,8 +1,8 @@
-# 🧠 Análise de Dados Qualitativos e NLP
+# 📊 Análise de Dados e Machine Learning (Portfólio)
 
 <!-- Título e Imagem de capa -->
 <p align="center">
-  <img src="assets/cover_image_nlp.png" alt="Imagem de capa com ícones de cérebro, lupa e texto, representando NLP e análise qualitativa" width="700"/>
+  <img src="assets/cover_image_data_science.png" alt="Imagem de capa com ícones de gráficos, código e machine learning" width="700"/>
 </p>
 
 <!-- Badges -->
@@ -10,7 +10,7 @@
   <!-- Badge de Linguagem Principal -->
   <img src="https://img.shields.io/badge/Linguagem%20Principal-Python-blue?style=for-the-badge&logo=python" alt="Badge de Linguagem Principal: Python"/>
   <!-- Badge de Status do Projeto -->
-  <img src="https://img.shields.io/badge/Status%20do%20Projeto-Em%20Evolução-yellowgreen?style=for-the-badge" alt="Badge de Status do Projeto: Em Evolução"/>
+  <img src="https://img.shields.io/badge/Status%20do%20Portfólio-Em%20Expansão-yellowgreen?style=for-the-badge" alt="Badge de Status do Projeto: Em Expansão"/>
   <!-- Badge de Contribuições -->
   <img src="https://img.shields.io/badge/Contribuições-Bem%20Vindas-brightgreen?style=for-the-badge" alt="Badge de Contribuições: Bem Vindas"/>
   <!-- Badge de Licença -->
@@ -36,33 +36,33 @@
 <!-- Descrição do Projeto -->
 ## 📝 Descrição do Projeto
 
-Este repositório é um portfólio focado em **Análise de Dados Qualitativos** e **Processamento de Linguagem Natural (NLP)**. Ele contém uma coleção de estudos de caso e projetos que demonstram a aplicação de técnicas de mineração de texto, análise de sentimentos e modelagem preditiva em dados não estruturados.
+Este repositório serve como um portfólio de projetos de **Análise de Dados** e **Machine Learning**, abrangendo tanto a análise de dados **quantitativos** quanto a aplicação de técnicas de **Processamento de Linguagem Natural (NLP)**.
 
-O objetivo é transformar dados textuais em *insights* acionáveis, utilizando o poder do Python e suas bibliotecas especializadas.
+O objetivo é demonstrar a capacidade de extrair *insights* de diferentes tipos de dados, desde séries temporais e dados de e-commerce até textos não estruturados, utilizando o ecossistema Python.
 
 ---
 
 <!-- Status do Projeto -->
 ## 🚀 Status do Projeto
 
-O projeto está **Em Evolução**. A cada novo estudo de caso ou técnica de NLP dominada, um novo *notebook* é adicionado para enriquecer o portfólio.
+O portfólio está **Em Expansão**. Novos estudos de caso e projetos de análise de dados são adicionados regularmente para demonstrar o domínio de novas técnicas e ferramentas.
 
 ---
 
 <!-- Funcionalidades e Demonstração da Aplicação -->
 ## ✨ Funcionalidades e Demonstração da Aplicação
 
-Os *notebooks* Jupyter neste repositório demonstram as seguintes funcionalidades:
+O repositório é composto por *notebooks* Jupyter, cada um representando um projeto de análise ou modelagem. A tabela abaixo detalha o foco de cada projeto:
 
-| Funcionalidade | Descrição | Notebooks Relacionados |
-| :--- | :--- | :--- |
-| **Análise de Sentimentos** | Extração e classificação da polaridade emocional de textos. | `ECommerce_Analysis.ipynb` |
-| **Detecção de Spam** | Uso de Machine Learning para classificar mensagens como spam ou não. | `Projeto_de_Análise_de_Dados_Detecção_de_Spam_em...` |
-| **Modelagem Preditiva** | Aplicação de algoritmos como Random Forest em dados textuais. | `Prediction_RandomForestClassifier.ipynb` |
-| **Análise Comportamental** | Estudo de padrões de estresse e sono a partir de dados. | `Stress_and_sleep_patterns.ipynb` |
-| **Interações de Dados** | Demonstração de como aplicar interações em conjuntos de dados. | `Aplicando_interações.ipynb` |
+| Projeto | Foco Principal | Tecnologias Chave | Demonstração (Notebook) |
+| :--- | :--- | :--- | :--- |
+| **Análise de Imigração** | Análise de dados quantitativos de imigração para o Canadá (série temporal e geográfica). | Pandas, Matplotlib, Plotly | [`Aplicando_interações.ipynb`](https://github.com/lucaspn017/qualitative_datas/blob/main/Aplicando_interações.ipynb) |
+| **Jornada do Cliente E-Commerce** | Análise quantitativa do comportamento do usuário em uma plataforma de e-commerce (abandono de página, correlação de origem). | Pandas, Seaborn, Matplotlib | [`ECommerce_Analysis.ipynb`](https://github.com/lucaspn017/qualitative_datas/blob/main/ECommerce_Analysis.ipynb) |
+| **Previsão de Sobrevivência (Titanic)** | Modelagem preditiva (Random Forest Classifier) e Análise Exploratória de Dados (EDA) no dataset Titanic. | Pandas, Scikit-learn, Seaborn | [`Prediction_RandomForestClassifier.ipynb`](https://github.com/lucaspn017/qualitative_datas/blob/main/Prediction_RandomForestClassifier.ipynb) |
+| **Detecção de Spam em E-mails** | Projeto de NLP e Machine Learning para classificar e-mails como spam ou não. | NLTK, Scikit-learn, WordCloud | [`Projeto_de_Análise_de_Dados_Detecção_de_Spam_em_E_mails.ipynb`](https://github.com/lucaspn017/qualitative_datas/blob/main/Projeto_de_Análise_de_Dados_Detecção_de_Spam_em_E_mails.ipynb) |
+| **Padrões de Estresse e Sono** | Análise de dados quantitativos sobre a relação entre qualidade do sono e saúde mental em estudantes. | Pandas, Matplotlib, Seaborn | [`Stress_and_sleep_patterns.ipynb`](https://github.com/lucaspn017/qualitative_datas/blob/main/Stress_and_sleep_patterns.ipynb) |
 
-**Demonstração:** Para visualizar as análises, basta clicar nos arquivos `.ipynb` acima. O GitHub renderiza o conteúdo dos *notebooks* diretamente no navegador.
+**Para visualizar as análises**, basta clicar nos links dos *notebooks* acima. O GitHub renderiza o conteúdo completo, incluindo códigos e visualizações.
 
 ---
 
@@ -82,8 +82,7 @@ Para rodar os projetos localmente, siga os passos:
 2.  **Instale as dependências:**
     ```bash
     # Recomenda-se criar um ambiente virtual antes
-    pip install pandas numpy scikit-learn nltk jupyter
-    # Pode ser necessário instalar bibliotecas específicas de NLP como spaCy ou TextBlob
+    pip install pandas numpy matplotlib seaborn scikit-learn nltk plotly jupyter
     ```
 3.  **Inicie o Jupyter Lab/Notebook:**
     ```bash
@@ -95,14 +94,14 @@ Para rodar os projetos localmente, siga os passos:
 <!-- Tecnologias utilizadas -->
 ## 🛠️ Tecnologias Utilizadas
 
-| Categoria | Tecnologia |
-| :--- | :--- |
-| **Linguagem** | Python |
-| **Ambiente** | Jupyter Notebook / Google Colab |
-| **Análise de Dados** | Pandas, NumPy |
-| **NLP** | NLTK, spaCy, TextBlob |
-| **Machine Learning** | Scikit-learn |
-| **Visualização** | Matplotlib, Seaborn |
+| Categoria | Tecnologia | Uso |
+| :--- | :--- | :--- |
+| **Linguagem** | Python | Linguagem principal para todas as análises e modelagens. |
+| **Ambiente** | Jupyter Notebook / Google Colab | Ambiente interativo para desenvolvimento e documentação. |
+| **Análise de Dados** | Pandas, NumPy | Manipulação, limpeza e cálculo de dados. |
+| **Visualização** | Matplotlib, Seaborn, Plotly | Criação de gráficos estáticos e interativos. |
+| **Machine Learning** | Scikit-learn | Implementação de modelos preditivos (e.g., Random Forest). |
+| **NLP** | NLTK, WordCloud | Processamento de texto e visualização de frequência de palavras. |
 
 ---
 
@@ -111,7 +110,7 @@ Para rodar os projetos localmente, siga os passos:
 
 Contribuições que aprimorem as análises, adicionem novos estudos de caso ou melhorem a documentação são sempre bem-vindas!
 
-Para contribuir, por favor, consulte o guia `CONTRIBUTING.md` (se disponível) ou abra uma *Issue* para discutir suas ideias.
+Para contribuir, por favor, consulte o guia `CONTRIBUTING.md` (a ser criado) ou abra uma *Issue* para discutir suas ideias.
 
 ---
 
@@ -148,7 +147,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR TORT OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
